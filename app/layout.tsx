@@ -3,6 +3,7 @@ import localFont from 'next/font/local';
 import './globals.css';
 import StarsCanvas from './components/StarBackGround';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
@@ -33,6 +34,7 @@ export default function RootLayout({
         <StarsCanvas />
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
