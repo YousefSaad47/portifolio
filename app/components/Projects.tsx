@@ -16,6 +16,11 @@ const Projects = () => {
           title="ProShop"
           description="Full Stack E-Commerce Platform Build in With The MERN Stack"
         />
+        <ProjectCard
+          src="/smsxx.png"
+          title="Smsxx"
+          description="Chat App With Real Time Chats"
+        />
       </div>
     </div>
   );

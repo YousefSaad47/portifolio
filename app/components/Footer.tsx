@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
 
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-            <div className="font-bold tex-[16px] ">About</div>
+            <div className="font-bold tex-[16px]">About</div>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <AiOutlineMail />
               <span className="text-[15px] ml-[6px]">
@@ -54,8 +54,8 @@ const Footer = () => {
         </div>
 
         <div className="mb-[20px] text-[15px] text-center">
-          &copy; Yousef Saadallah Portfoilio ${new Date().getFullYear()} Inc.
-          All rights reserved.
+          &copy; Yousef Saadallah Portfoilio {new Date().getFullYear()} Inc. All
+          rights reserved.
         </div>
       </div>
     </div>

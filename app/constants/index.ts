@@ -95,6 +95,11 @@ export const Socials = [
     src: '/gitwhite.png',
     url: 'https://github.com/YousefSaad47',
   },
+  {
+    name: 'facebook',
+    src: '/facebook.svg',
+    url: 'https://www.facebook.com/share/uu5PGY8SpCeUBSTC/',
+  },
 ];
 
 export const Frontend_skill = [
