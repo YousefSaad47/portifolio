@@ -1,12 +1,13 @@
 'use client';
-
 import React, { useState, useRef, Suspense } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { Points, PointMaterial, Preload } from '@react-three/drei';
-// @ts-ignore
+import { Points, PointMaterial } from '@react-three/drei';
+// @ts-expect-error: maath/random types are not available
 import * as random from 'maath/random/dist/maath-random.esm';
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const StarBackGround = (props: any) => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const ref: any = useRef();
   const [sphere] = useState(() =>
     random.inSphere(new Float32Array(5000), { radius: 1.2 })
